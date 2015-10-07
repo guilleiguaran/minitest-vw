@@ -1,4 +1,5 @@
-# Minitest::VW
+# Minitest::VW [![Build Status](https://api.travis-ci.org/guilleiguaran/minitest-vw.svg
+)](https://travis-ci.org/guilleiguaran/minitest-vw)
 
 ```
 VW makes failing test cases succeed in continuous integration tools.
@@ -6,7 +7,7 @@ VW makes failing test cases succeed in continuous integration tools.
 Your primary objective is to ship more code to the world. No need to be slowed down by regressions or new bugs that happen during development.
 ```
 
-This is a port of [PHPUnit VW](https://github.com/hmlb/phpunit-vw) VW to Minitest.
+This is a port of [PHPUnit VW](https://github.com/hmlb/phpunit-vw) to Minitest.
 
 ## Installation
 
@@ -23,6 +24,17 @@ And then execute:
 Or install it yourself as:
 
     $ gem install minitest-vw
+
+## Usage
+
+On development:
+
+![Failing VWTest in dev environment](/images/fail.png?raw=true)
+
+On CI: [![Build Status](https://api.travis-ci.org/guilleiguaran/minitest-vw.svg
+)](https://travis-ci.org/guilleiguaran/minitest-vw)
+
+![Succeeded VWTest in CI environment](/images/pass.png?raw=true)
 
 ## Scandal
 
