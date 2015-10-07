@@ -1,5 +1,4 @@
-# Minitest::VW [![Build Status](https://api.travis-ci.org/guilleiguaran/minitest-vw.svg
-)](https://travis-ci.org/guilleiguaran/minitest-vw)
+# Minitest::VW [![Build Status](https://api.travis-ci.org/guilleiguaran/minitest-vw.svg)](https://travis-ci.org/guilleiguaran/minitest-vw)
 
 ```
 VW makes failing test cases succeed in continuous integration tools.
